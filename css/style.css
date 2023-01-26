@@ -1,9 +1,52 @@
-body{
-    background-color: red;
-}
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    color: white;
+}
+
+
+header {
+    height: 40px;
+    background-color: black;
+    
+}
+
+main{
+    height: calc(100vh - 110px);
+    background-color: yellow;
+    overflow: auto;
+}
+footer{
+    height: 70px;
+    background-color: rgb(78, 77, 77);
+    display: flex;
+}
+
+
+span{
+    background-color: rgb(78, 77, 77);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.comand{
+    padding: 8px 15px;
+    display: flex;
+    justify-content: flex-end; 
+    gap: 10px;
+
+
+}
+.container{
+
+
+
+}
+
+.row{
+    align-items: flex-end;
 }
