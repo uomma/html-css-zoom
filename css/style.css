@@ -14,12 +14,6 @@ header {
     background-color: black;
 
 }
-footer {
-    height: 70px;
-    background-color: rgb(78, 77, 77);
-
-
-}
 
 /* header */
 .comand {
@@ -31,6 +25,7 @@ footer {
 
 
 }
+
 span {
     background-color: rgb(78, 77, 77);
     padding: 3px;
@@ -46,52 +41,47 @@ span {
 
 /* main */
 
-main{
+main {
     height: calc(100vh - 110px);
     background-color: orange;
     display: flex;
     justify-content: center;
-
 }
 
 .green {
     width: 90vw;
     display: flex;
-    background-color: yellow;
     flex-wrap: wrap;
     align-content: flex-start;
-
+    margin: 20px 0px;
 }
 
-
-.col-conteiner {
+.users {
     width: calc(100% / 7);
-    padding: 10px;
-    background-color: blue;
+    padding: 10px 5px;
 }
-
 
 .box {
-    height: 100px;   
+    height: 100px;
     background-color: aqua;
-    display: flex;
-    text-align: center;
-    justify-content: center;
+}
+
+.box {
     position: relative;
 }
 
-.person-name{
+.box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.name {
     position: absolute;
     bottom: 0;
     left: 0;
     padding: 5px;
-    font-size: 10px;
-}
-
-
-.box img{
-    width: 100%;
-    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* main */
@@ -100,35 +90,57 @@ main{
 
 /* footer */
 
-.bottom{
-    padding-top: 20px;
-    width: 100vw;
+footer {
+    height: 70px;
+    background-color: rgb(78, 77, 77);
+    color: white;
     display: flex;
-    align-items: center;
-    justify-content:space-between;
-
-}
-.interagisci{
-    display: flex;
-    align-items: center;
-    padding: 0px 30px;
+    justify-content: space-between;
 }
 
-.end {
-    background-color: grey;
-    padding: 10px 30px;
+button {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+}
+
+footer .flex-container {
+    display: flex;
+}
+
+.footer-sx, .footer-dx {
+    width: 15%;
+}
+
+footer .btn-footer-chevron {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+footer .btn-footer-container {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-sx {
+    padding-left: 10px;
+    align-items: center;
+}
+
+.footer-md {
+    padding: 10px;
+    align-items: center;
+}
+
+.footer-dx {
+    justify-content: flex-end;
+}
+
+.footer-dx .btn {
+    padding: 10px;
     color: red;
-    display: flex;
-    align-items: center;
-
+    background-color: grey;
 }
-
-.options{ display: flex;
-    align-items: center;
-    gap: 30px;
-
-}
-
-
 
 /* footer */
